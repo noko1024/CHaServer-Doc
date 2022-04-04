@@ -34,7 +34,7 @@
             mapの保存されたPathを保存する  
     2. Redis  
         メインテーブル  
-        | roomID | cashData |  　
+        | roomID | cashData |  
         | --- | --- |  
         - roomID  
             CHaserClientの対戦ルームを定める  
