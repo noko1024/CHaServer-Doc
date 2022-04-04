@@ -13,9 +13,9 @@
 
 2. テーブル構造
     1. postgreSQL  
-        メインテーブル
-        | roomID | log | mapHash |
-        | --- | --- | ---| 
+        メインテーブル  
+        | roomID | log | mapHash |  
+        | --- | --- | ---|  
         - roomID  
             CHaserClientの対戦ルームを定める  
             Viewerが取得すべきログを定める  
@@ -25,17 +25,17 @@
             利用するマップのハッシュ値を保存する  
             マップテーブルのキーとなる  
         
-        マップテーブル
-        | mapHash | mapData |
-        | ---| --- |
+        マップテーブル  
+        | mapHash | mapData |  
+        | ---| --- |  
         - mapHash  
             mapPathに保存されたマップのハッシュ値を保存する  
         - mapPath  
             mapの保存されたPathを保存する  
     2. Redis  
-        メインテーブル
-        | roomID | cashData |
-        | --- | --- |
+        メインテーブル  
+        | roomID | cashData |  　
+        | --- | --- |  
         - roomID  
             CHaserClientの対戦ルームを定める  
         - cashData  
