@@ -11,7 +11,7 @@
 
 ![](img/Relationship.svg)
 
-2. テーブル構造
+2. データ構造
     1. postgreSQL  
         メインテーブル  
         
@@ -35,7 +35,6 @@
         - mapData  
             mapの実体データを保存する
     2. Redis  
-        メインテーブル  
         
         | roomID | cashData |  
         | --- | --- |  
