@@ -32,8 +32,8 @@
         | ---| --- |  
         - mapHash  
             mapPathに保存されたマップのハッシュ値を保存する  
-        - mapPath  
-            mapの保存されたPathを保存する  
+        - mapData  
+            mapの実体データを保存する
     2. Redis  
         メインテーブル  
         
