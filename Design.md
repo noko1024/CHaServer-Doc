@@ -8,10 +8,8 @@
           - log :　下に記載
           - mapHash : SHA-256
           - mapData : 変換したCSVのBlob 
-     2.  Redis
-          - roomID : ULID
           - cashData : 下に記載
 
-3. CHaserLogの形式について
-     どうしよう！
+3. CHaserLogの形式について  
+     どうしよう！  
 4. CashDataの形式について  

@@ -34,7 +34,8 @@
             mapPathに保存されたマップのハッシュ値を保存する  
         - mapData  
             mapの実体データを保存する
-    2. Redis  
+
+        キャッシュテーブル
         
         | roomID | cashData |  
         | --- | --- |  
