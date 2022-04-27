@@ -2,8 +2,7 @@
     - Server
       1. ApolloServer (GraphQL Server)
       2. NextJS
-      3. Redis (DataBase)
-      4. postgreSQL (DataBase)
+      3. postgreSQL (DataBase)
     - Client(Viewer)
       1. React
       2. NestJS
